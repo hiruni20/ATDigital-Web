@@ -19,7 +19,7 @@ function Footer() {
         </div>
 
         <div className='text-white'>
-          <h1 className='font-medium text-xl pb-4 pt-5 md:pt-0'>Our Technologies</h1>
+          <h1 className='font-medium text-xl pb-4 pt-5 md:pt-0 font-semibold'>Our Technologies</h1>
           <nav className='flex flex-col gap-2'>
             <h2 className='hover:text-black transition-all cursor-pointer'>React</h2>
             <h2 className='hover:text-black transition-all cursor-pointer'>Gatsby</h2>
@@ -30,7 +30,7 @@ function Footer() {
           </nav>
         </div>
         <div className='text-white'>
-          <h1 className='font-medium text-xl pb-4 pt-5 md:pt-0'>Our Services</h1>
+          <h1 className='font-medium text-xl pb-4 pt-5 md:pt-0 font-semibold'>Our Services</h1>
           <nav className='flex flex-col gap-2'>
             <h2 className='hover:text-black transition-all cursor-pointer'>Social media Marketing</h2>
             <h2 className='hover:text-black transition-all cursor-pointer'>Web & Mobile App Development</h2>

@@ -1,0 +1,39 @@
+/* Home.css */
+
+/* Common styles for all screen sizes */
+.bg-hero-pattern {
+    background-size: cover;
+    /* Add any other common styles for the Home component */
+  }
+  
+  /* Styles for screen size 1200px and above */
+  @media (min-width: 1200px) {
+    .bg-hero-pattern {
+      /* Add styles for screen size 1200px and above */
+      height: 600px; /* Adjust the height as needed */
+      /* Add any other styles specific to 1200px and above */
+    }
+  }
+  
+  /* Styles for screen size 768px to 1199px */
+  @media (min-width: 768px) and (max-width: 1200px) {
+    .bg-hero-pattern {
+      /* Add styles for screen size 768px to 1199px */
+      height: 400px; /* Adjust the height as needed */
+      /* Add any other styles specific to 768px to 1199px */
+    }
+  }
+  
+  /* Styles for screen size 375px to 767px */
+  @media (min-width: 375px) and (max-width: 767px) {
+    .bg-hero-pattern {
+      /* Add styles for screen size 375px to 767px */
+      height: 300px; /* Adjust the height as needed */
+      /* Add any other styles specific to 375px to 767px */
+    }
+  }
+  
+  /* Additional styles for the Home component */
+  /* Add styles specific to your Home component here */
+  
+  

@@ -1,0 +1,13 @@
+/* Your existing styles */
+
+/* Styles for screen size 778px and below */
+@media (max-width: 778px) {
+    .logo {
+      font-size: 16px; /* Adjust the font size as needed */
+    }
+  
+    .nav-links {
+      font-size: 14px; /* Adjust the font size as needed */
+    }
+  }
+  
