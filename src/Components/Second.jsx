@@ -8,7 +8,6 @@ function Second() {
       <h1></h1>
       <div>
         <SecondCard  />
-        
       </div>
     </div>
   );
