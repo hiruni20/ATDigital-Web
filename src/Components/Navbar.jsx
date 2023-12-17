@@ -26,7 +26,7 @@ function Navbar() {
                         </span>
                         <h1 className='text-2xl md:text-3xl font-semibold text-white'>AT-DIGITAL</h1>
                     </div>
-                    <nav className={`${menu ? "flex" : "hidden"} md:flex flex-col md:flex-row items-center text-lg text-white font-small gap-6`}>
+                    <nav className={`${menu ? "flex" : "hidden"} md:flex flex-col md:flex-row items-center text-lg text-white font-small gap-6`} >
                         <Link to='servicers' spy={true} duration={500} className='hover:text-black cursor-pointer' onClick={closeNav}>SERVICERS</Link>
                         <Link to='aboutus' spy={true} duration={500} className='hover:text-black cursor-pointer' onClick={closeNav}>ABOUT US</Link>
                         <Link to='contactus' spy={true} duration={500} className='hover:text-black cursor-pointer' onClick={closeNav}>CONTACT US</Link>

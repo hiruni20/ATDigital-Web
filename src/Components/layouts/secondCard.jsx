@@ -11,11 +11,11 @@ const SecondCard = () => {
           <div className="w-full md:w-1/2 pr-8 mb-8 md:mb-0"> 
             <img src={computer} alt="img" className="w-full mb-3" />
           </div>
-          <div className="w-full md:w-1/2 text-left">
-            <h1 className="text-3xl font-medium space-y-5 font-semibold mb-3 text-purple-500">
+          <div className="w-full md:w-1/2 text-left p-3">
+            <h1 className="text-3xl font-medium space-y-5 font-semibold mb-5 text-purple-500">
               Web & Mobile App Development
             </h1>
-            <p className="text-black mb-3">
+            <p className="text-black mb-3 ">
               Your web and mobile Apps are pieces of the puzzle to grow your business. We use frameworks that tailor content and engagement methods to respond to different intents shown by your potential customers who interact with your business online.
             </p>
             <button className="w-full md:w-1/4 bg-orange-500 text-white font-small px-4 py-2 rounded hover:bg-purple cursor-pointer">
@@ -27,7 +27,7 @@ const SecondCard = () => {
 
       <div className="min-h-screen flex bg-white">
         <div className="p-8 flex flex-col md:flex-row justify-between items-center w-full">
-          <div className="w-full md:w-1/2 text-left md:p-12 order-2 md:order-1">
+          <div className="w-full md:w-1/2 text-left md:p-12 order-2 md:order-1 ">
             <h1 className="text-3xl font-medium font-semibold mb-3 text-purple-500">
               Digital Strategy Consulting
             </h1>
